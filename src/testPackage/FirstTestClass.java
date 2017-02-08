@@ -1,28 +1,28 @@
 package testPackage;
 
+import org.openqa.selenium.Platform;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
 
-
-
-/**
- * Created by olewc on 06/02/2017.
- */
 public class FirstTestClass {
 
     public static void main(String[] args) {
-        String baseURL = "http://www.onet.pl";
+    // pokazanie w działaniu klasy DesiredCapabilities
         System.setProperty("webdriver.gecko.driver","E:\\developernia\\selenium-java-3.0.1\\geckodriver.exe");
-//        WebDriver driver = new FirefoxDriver();
-//        driver.get(baseURL);
-//        driver.close();
-        System.setProperty("webdriver.chrome.driver","E:\\developernia\\selenium-java-3.0.1\\chromedriver.exe");
-        WebDriver chromeDriver = new ChromeDriver();
 
-        chromeDriver.get(baseURL);
-        
+        String baseURL = "http://www.onet.pl";
+        WebDriver driver;
+        DesiredCapabilities caps = DesiredCapabilities.firefox();
 
+        caps.setBrowserName("Firefox");
+        caps.setPlatform(Platform.WIN10);
+
+        driver = new FirefoxDriver(caps);
+        driver.manage().window().maximize();
+        driver.get(baseURL);
+
+        // za cholerę na razie nie wiem po co ta klasa, podobno jest w użyciu przy okazji grida. 
     }
 }
 
