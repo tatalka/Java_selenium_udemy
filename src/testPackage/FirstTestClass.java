@@ -1,18 +1,17 @@
 package testPackage;
 
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class FirstTestClass {
 
     public static void main(String[] args) {
-    // tak sie wlacza przegladarke internet explorer
-        System.setProperty("webdriver.ie.driver", "E:\\developernia\\selenium-java-3.0.1\\IEDriverServer.exe");
-        String baseURL = "http://www.onet.pl";
+
+        String baseURL = "http://www.google.com";
         WebDriver driver;
 
-        driver = new InternetExplorerDriver();
-        driver.manage().window().maximize();
+        driver = new FirefoxDriver();
+        //driver.manage().window().maximize();
         driver.get(baseURL);
 
     }
