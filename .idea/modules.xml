@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Java_selenium_udemy.iml" filepath="$PROJECT_DIR$/Java_selenium_udemy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java_Selenium.iml" filepath="$PROJECT_DIR$/Java_Selenium.iml" />
     </modules>
   </component>
 </project>
