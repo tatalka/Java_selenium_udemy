@@ -12,13 +12,8 @@ public class FirstTestClass {
         WebDriver driver = new FirefoxDriver();
         driver.manage().window().maximize();
         driver.get(baseURL);
-        // ten znajduje wylacznie caly tekst:
-        driver.findElement(By.linkText("Contact us")).click();
-        // a temu wystarczy kawalek:
-        driver.findElement(By.partialLinkText("Contact")).click();
-        // na tej stronie z kursu cwiczenie nie dziala - prawdopodobnie
-        // dlatego, ze tekst nie jest w "anchor" tylko w "span"
-
+        // tak znajduduje sie po nazwie klasy - uwaga, klasy zazwyczaj nie sa unikatowe!.
+        driver.findElement(By.className("title")).click();
     }
 }
 
