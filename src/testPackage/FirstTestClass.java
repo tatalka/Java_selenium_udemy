@@ -12,8 +12,9 @@ public class FirstTestClass {
         WebDriver driver = new FirefoxDriver();
         driver.manage().window().maximize();
         driver.get(baseURL);
-        // tak znajduduje sie po nazwie klasy - uwaga, klasy zazwyczaj nie sa unikatowe!.
-        driver.findElement(By.className("title")).click();
+        // szukanie elementu po nazwie tagu. praktycznie nie uzywane, bo tagi nie sa unikatowe
+        // wiec albo sie wywali, albo kliknie w miejsce ktorego nie mozna byc pewnym
+        driver.findElement(By.tagName("a")).click();
     }
 }
 
