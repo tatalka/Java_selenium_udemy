@@ -13,15 +13,22 @@ public class FirstTestClass {
         driver.manage().window().maximize();
         driver.get(baseURL);
 
-        // teraz zrobie wyszukiwanie elementu po klasie.klasy nie musza, a wrecz czesto nie sa unikatowe na stronie.
-        // w poniższym wyslaniu znakow nie ma pewności dokad poleca, bo są dwa elementy "inputs".
-        // driver.findElement(By.className("inputs")).sendKeys("poziomka");
-        // przed nazwa klasy mozna jak najbardziej podac nazwe tagu ktory ma ta klase tak jak w ponizszym:
-        //driver.findElement(By.cssSelector("input.inputs")).sendKeys("gruszka");
-        // jezeli element ma wiecej niz jedna klase, zeby go odnalezc, trzeba podac wszystkie (ponizej - dwie)
-        //driver.findElement(By.cssSelector("input[class='inputs displayed-class']")).sendKeys("truskawka");
-        // mozna rowniez to zrobic w ten sposob - tutaj nie ma znaczenia kolejnosc wypisanych klas:
-        driver.findElement(By.cssSelector(".inputs.displayed-class")).sendKeys("jablko");
+        // wildcards w wyszukiwaniu:
+        // "^"  -> represents starting text (starts with)
+        // tutaj po dostawieniu daszka znajdzie dwa takie elementy - jeden mial klase inputs
+        // a drugi dwie klasy :  inputs i displayed-class
+        // driver.findElement(By.cssSelector("input[class^='inputs']")).sendKeys("jablko");
+        // "$"  -> represents ending text
+        // w przykladzie ponizszym bez dolara nie znalazly tego elementu, poniewaz ma on rowniez
+        // klase 'inputs'. Dolar jako wildcard zalatwia sprawe bo mowi - klasy koncza sie na [blabla]
+        // po dolarze nie musi byc kompletna nazwa klasy, wystarczy kawalek. BTW - to moze byc dowolny
+        // atrybut, nie musi byc klasa, tez bedzie dzialac.
+        // driver.findElement(By.cssSelector("input[class='displayed-class'")).sendKeys("gruszka");
+        // "*"  -> represents the text contained
+        // gwiazdka pozwala na znalezienie atrybutu ktorego wartosc po prostu zawiera wyslany string:
+        driver.findElement(By.cssSelector("input[placeholder*='Enter'")).sendKeys("pomarancza");
+
+
     }
 }
 
