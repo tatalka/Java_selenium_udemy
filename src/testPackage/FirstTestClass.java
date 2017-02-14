@@ -8,29 +8,20 @@ public class FirstTestClass {
 
     public static void main(String[] args) {
 
-        String baseURL = "http://demostore.x-cart.com";
+        String baseURL = "https://letskodeit.teachable.com/p/practice";
         WebDriver driver = new FirefoxDriver();
         driver.manage().window().maximize();
         driver.get(baseURL);
-        // szukanie elementu po nazwie tagu. praktycznie nie uzywane, bo tagi nie sa unikatowe
-        // wiec albo sie wywali, albo kliknie w miejsce ktorego nie mozna byc pewnym
-        driver.findElement(By.tagName("a")).click();
 
-        // znajdowanie elementu po selektorze CSS
-        /*
-        teoretycznie id powinny byc unikatowe, ale zdarza sie ze nie jest
-        wtedy mozna :
-        1) input[id=displayed-text]  -> najdluzszy sposob. nazwa tagu, id
-        2) #displayed-text   -> znajdzie wszystkie elementy z takim id, bo # to wlasnie id.
-            oczywiscie wywali sie, bo selenium zglupieje jak nie bedzie jednego elementu
-        3) input#displayed-text
-
-        innym znakiem specjalnym jest "." czyli kropka, tak jak # oznaczal id, tak '.' oznacza klase.
-
-        .displayed-class
-        input.displayed-class
-         */
-
+        // teraz zrobie wyszukiwanie elementu po klasie.klasy nie musza, a wrecz czesto nie sa unikatowe na stronie.
+        // w poniższym wyslaniu znakow nie ma pewności dokad poleca, bo są dwa elementy "inputs".
+        // driver.findElement(By.className("inputs")).sendKeys("poziomka");
+        // przed nazwa klasy mozna jak najbardziej podac nazwe tagu ktory ma ta klase tak jak w ponizszym:
+        //driver.findElement(By.cssSelector("input.inputs")).sendKeys("gruszka");
+        // jezeli element ma wiecej niz jedna klase, zeby go odnalezc, trzeba podac wszystkie (ponizej - dwie)
+        //driver.findElement(By.cssSelector("input[class='inputs displayed-class']")).sendKeys("truskawka");
+        // mozna rowniez to zrobic w ten sposob - tutaj nie ma znaczenia kolejnosc wypisanych klas:
+        driver.findElement(By.cssSelector(".inputs.displayed-class")).sendKeys("jablko");
     }
 }
 
