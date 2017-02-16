@@ -13,10 +13,12 @@ public class FirstTestClass {
         driver.manage().window().maximize();
         driver.get(baseURL);
 
-        // finding children elements
-        // '>' wskazuje na child element
-        driver.findElement(By.cssSelector("fieldset>input#displayed-text")).sendKeys("jablko");
+        // rozwiazanie pierwszego zadania - odnalezienie ceny kursu z pythonem :
+        // sciezka xpath:
+        // .//table[@id='product']//td[contains(text(),'Python')]//following-sibling::td
 
+
+        
 
 
     }
