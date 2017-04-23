@@ -22,10 +22,13 @@ public class FirstTestClass {
         driver.findElement(By.id("lst-ib")).sendKeys("poziomka");
 
         // tutaj albo mogę znowu znaleźć guzik po id :
-        driver.findElement(By.id("_fZl")).click();
+        // driver.findElement(By.id("_fZl")).click();
 
         // albo znaleźć jego xpath (czasami nie ma id, albo po prostu łatwiej:
         //driver.findElement(By.xpath(".//*[@id='_fZl']")).click();
+
+        // ale mogę go też znaleźć po nazwie:
+        driver.findElement(By.name("btnG")).click();
 
         //driver.quit(); // zakomentowałem bo za szybko działa i od razu zamyka
     }
