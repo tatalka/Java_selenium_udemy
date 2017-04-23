@@ -13,14 +13,16 @@ public class FirstTestClass {
 
     public static void main(String[] args) {
         String baseURL = "http://www.onet.pl";
-        System.setProperty("webdriver.gecko.driver","E:\\developernia\\selenium-java-3.0.1\\geckodriver.exe");
-//        WebDriver driver = new FirefoxDriver();
-//        driver.get(baseURL);
-//        driver.close();
-        System.setProperty("webdriver.chrome.driver","E:\\developernia\\selenium-java-3.0.1\\chromedriver.exe");
-        WebDriver chromeDriver = new ChromeDriver();
+        // System.setProperty("webdriver.gecko.driver","E:\\developernia\\selenium-java-3.0.1\\geckodriver.exe");
+        // nie wiem co to to za linijka powyżej, skomentuję jak bedzie koleś o tym gadać później.
+        WebDriver driver = new FirefoxDriver();
+        driver.get(baseURL);
+        // driver.close(); // to polecenie nie działa.
+        driver.quit();
+        //System.setProperty("webdriver.chrome.driver","E:\\developernia\\selenium-java-3.0.1\\chromedriver.exe");
+        //WebDriver chromeDriver = new ChromeDriver();
 
-        chromeDriver.get(baseURL);
+        //chromeDriver.get(baseURL);
         
 
     }
