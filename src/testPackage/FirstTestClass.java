@@ -8,7 +8,7 @@ public class FirstTestClass {
 
     public static void main(String[] args) {
         WebDriver driver;
-        String baseURL = "https://pl.ogame.gameforge.com/";
+        String baseURL = "http://demostore.x-cart.com/";
 
         driver = new FirefoxDriver();
         driver.manage().window().maximize();
@@ -17,8 +17,8 @@ public class FirstTestClass {
         // finding element by full text
         //driver.findElement(By.linkText("Oświadczanie o ochronie danych")).click();
         // finding element by partial text
-        driver.findElement(By.partialLinkText("Oświadczanie o ")).click();
-
+        //driver.findElement(By.partialLinkText("Oświadczanie o ")).click();
+        driver.findElement(By.className("title")).click();
 
         //driver.quit();
     }
