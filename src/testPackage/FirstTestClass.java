@@ -14,11 +14,7 @@ public class FirstTestClass {
         driver.manage().window().maximize();
         driver.get(baseURL);
 
-        // finding element by full text
-        //driver.findElement(By.linkText("Oświadczanie o ochronie danych")).click();
-        // finding element by partial text
-        //driver.findElement(By.partialLinkText("Oświadczanie o ")).click();
-        driver.findElement(By.className("title")).click();
+        driver.findElement(By.tagName("a")).click();
 
         //driver.quit();
     }
