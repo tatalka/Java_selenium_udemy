@@ -14,11 +14,8 @@ public class FirstTestClass {
         driver.manage().window().maximize();
         driver.get(baseURL);
 
-        // znalezienie elementu po nazwie klasy
-        // driver.findElement(By.cssSelector(".displayed-class")).click();
-
-        // jezeli nazwa klasy nie wystarczy by znalezc unikatowy element, można połączyć kilka klas
-        driver.findElement(By.cssSelector(".class1.class2")).click();
+        // w dół po gałęzi elementów schodzę za pomocą ">"
+        driver.findElement(By.cssSelector("fieldset>#openwindow")).click();
 
         //driver.quit();
     }
