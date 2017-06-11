@@ -26,6 +26,18 @@ public class GenericMethods {
             System.out.println("Element found with xpath : " + locator);
             return this.driver.findElement(By.xpath(locator));
         }
+        else if (type.equals("css")){
+            System.out.println("Element found with css : " + locator);
+            return this.driver.findElement(By.cssSelector(locator));
+        }
+        else if(type.equals("linktext")){
+            System.out.println("Element found with linktext : " + locator);
+            return this.driver.findElement(By.linkText(locator));
+        }
+        else if(type.equals("partiallinktext")){
+            System.out.println("Element found with partial link text : " + locator );
+            return this.driver.findElement(By.partialLinkText(locator));
+        }
         else{
             System.out.println("Locator type not supported");
             return null;
@@ -35,16 +47,41 @@ public class GenericMethods {
     public List<WebElement> getElementList(String locator, String type){
         type = type.toLowerCase();
         if(type.equals("id")){
-            System.out.println("Element fount with id : " + locator);
+            System.out.println("Elements fount with id : " + locator);
             return this.driver.findElements(By.id(locator));
         }
         else if(type.equals("xpath")){
-            System.out.println("Element found with xpath : " + locator);
+            System.out.println("Elements found with xpath : " + locator);
             return this.driver.findElements(By.xpath(locator));
         }
+        else if(type.equals("css")){
+            System.out.println("Elements found with css : " + locator);
+            return this.driver.findElements(By.cssSelector(locator));
+        }
+        else if(type.equals("linktext")){
+            System.out.println("Element found with linktext : " + locator);
+            return this.driver.findElements(By.linkText(locator));
+        }
+        else if(type.equals("partiallinktext")){
+            System.out.println("Element found with partial link text : " + locator);
+            return this.driver.findElements(By.partialLinkText(locator));
+        }
+
+        // partiallinktext
         else{
             System.out.println("Locator type not supported!");
             return null;
+        }
+    }
+
+    public boolean isElementPresent(String locator, String type){
+        List<WebElement> elementList = getElementList(locator, type);
+        int size = elementList.size();
+        if (size> 0){
+            return true;
+        }
+        else{
+            return false;
         }
     }
 }
