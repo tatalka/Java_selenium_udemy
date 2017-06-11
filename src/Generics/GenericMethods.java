@@ -46,32 +46,35 @@ public class GenericMethods {
 
     public List<WebElement> getElementList(String locator, String type){
         type = type.toLowerCase();
+        List<WebElement> listOfElementsToReturn;
+
         if(type.equals("id")){
-            System.out.println("Elements fount with id : " + locator);
-            return this.driver.findElements(By.id(locator));
+            listOfElementsToReturn = driver.findElements(By.id(locator));
         }
         else if(type.equals("xpath")){
-            System.out.println("Elements found with xpath : " + locator);
-            return this.driver.findElements(By.xpath(locator));
+            listOfElementsToReturn = driver.findElements(By.xpath(locator));
         }
         else if(type.equals("css")){
-            System.out.println("Elements found with css : " + locator);
-            return this.driver.findElements(By.cssSelector(locator));
+            listOfElementsToReturn = driver.findElements(By.cssSelector(locator));
         }
         else if(type.equals("linktext")){
-            System.out.println("Element found with linktext : " + locator);
-            return this.driver.findElements(By.linkText(locator));
+            listOfElementsToReturn = driver.findElements(By.linkText(locator));
         }
         else if(type.equals("partiallinktext")){
-            System.out.println("Element found with partial link text : " + locator);
-            return this.driver.findElements(By.partialLinkText(locator));
+            listOfElementsToReturn = driver.findElements(By.partialLinkText(locator));
         }
-
-        // partiallinktext
         else{
             System.out.println("Locator type not supported!");
             return null;
         }
+        if(listOfElementsToReturn.size()>0){
+            System.out.println("Element found with " + type + " : " + locator);
+        }
+        else{
+            System.out.println("Element NOT found! " + type + " : " + locator);
+        }
+        return listOfElementsToReturn;
+
     }
 
     public boolean isElementPresent(String locator, String type){
