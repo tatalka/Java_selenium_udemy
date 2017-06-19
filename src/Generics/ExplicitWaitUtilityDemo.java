@@ -33,8 +33,8 @@ public class ExplicitWaitUtilityDemo {
         WebElement emailField = wt.waitForElement(By.id("user_email"),3);
         emailField.sendKeys("poziomka");
 
+        wt.clickWhenReady(By.name("commit"),3);
     }
-
     @After
     public void tearDown() throws InterruptedException {
         Thread.sleep(5000);
