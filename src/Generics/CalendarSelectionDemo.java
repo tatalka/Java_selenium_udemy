@@ -37,6 +37,7 @@ public class CalendarSelectionDemo {
         driver.findElement(By.id("flight-departing")).click();
 
         // ten test nie dziala - po kliknieciu w element lista rozwija sie i znika, wiec nie mozna wybrac dnia. na stronie kursu nie odpowiedzial
+        // nie udało mi się znaleźć nic ciekawego na ten temat spytam Marty'ego czy mogę zapytać w jego imieniu na kursie
         System.out.println("kliknalem");
         Thread.sleep(5000);
 
