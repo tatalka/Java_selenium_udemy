@@ -16,25 +16,45 @@ import java.util.Set;
 public class WindowHandles {
     WebDriver driver;
     String baseUrl;
-    String windowHandle;
+    String parentWindowHandle;
+    WebElement searchBox;
     @Before
     public void setUp(){
         driver = new FirefoxDriver();
         baseUrl = "https://letskodeit.teachable.com/pages/practice";
+
     }
     @Test
-    public void test01(){
+    public void test01() throws InterruptedException {
         driver.get(baseUrl);
-        windowHandle = driver.getWindowHandle();
-        System.out.println("current window handle: " + windowHandle);
+        parentWindowHandle = driver.getWindowHandle();
+        System.out.println("current window handle: " + parentWindowHandle);
         WebElement openWindowButton = driver.findElement(By.id("openwindow"));
         openWindowButton.click();
 
+        // here I get all the window handles
         Set<String> windowHandles = driver.getWindowHandles();
 
         for(String handle: windowHandles){
             System.out.println("handle : " + handle);
+            // i switch to the other window here and perform action
+            if(!handle.equals(parentWindowHandle)){
+                driver.switchTo().window(handle);
+                Thread.sleep(2000);
+                searchBox = driver.findElement(By.id("search-courses"));
+                searchBox.sendKeys("python");
+                Thread.sleep(2000);
+                driver.close(); // rożnica taka, że close aktualne okno zamyka. tylko.
+                break;
+            }
         }
+
+        // here I want to switch back to parent window
+        driver.switchTo().window(parentWindowHandle);
+
+        // just to confirm, performing action on main page
+        driver.findElement(By.id("name")).sendKeys("Krzysio");
+
     }
 
     @After
