@@ -12,6 +12,8 @@ public class SearchPage {
 
     //  Returns the flight origin text box element
 
+
+
     public static WebElement originTexBox(WebDriver driver){
         element = driver.findElement(By.id("flight-origin-hp-flight"));
         return element;
