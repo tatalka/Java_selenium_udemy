@@ -1,0 +1,3 @@
+2017-09-04 --INFO       Logging4jProba - running before method
+2017-09-04 --INFO       Logging4jProba - running test method
+2017-09-04 --DEBUG      Logging4jProba - running after method
