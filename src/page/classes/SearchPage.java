@@ -13,6 +13,10 @@ public class SearchPage {
     //  Returns the flight origin text box element
 
 
+    public static void clickHistoryHeader(WebDriver driver){
+        element = driver.findElement(By.id("primary-header-home"));
+        element.click();
+    }
 
     public static WebElement originTexBox(WebDriver driver){
         element = driver.findElement(By.id("flight-origin-hp-flight"));
@@ -51,7 +55,7 @@ public class SearchPage {
     }
 
     public static void navigateToFlightsTab(WebDriver driver){
-        element = driver.findElement(By.id("tab-flight-tab-hp"));
+        element = driver.findElement(By.id("tab-flight-tab"));
         element.click();
     }
 
