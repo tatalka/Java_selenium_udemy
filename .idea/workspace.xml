@@ -2,43 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4adbf88d-8ae5-4aeb-a2af-58ffd9014df7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Java_selenium_udemy/MyTests/BasicActions.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Java_selenium_udemy/MyTests/ElementLists.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Java_selenium_udemy/MyTests/ElementState.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Java_selenium_udemy/MyTests/GettingValueFromElementAttribute.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Java_selenium_udemy/MyTests/HiddenShownElements.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Java_selenium_udemy/MyTests/MultiselectAndDropdowns.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Java_selenium_udemy/MyTests/NavigationBetweenPages.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Java_selenium_udemy/MyTests/RadioButtonsCheckboxes.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Java_selenium_udemy/MyTests/RetrievingTextFromElement.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Java_selenium_udemy/page/classes/PageObjectModel.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Java_selenium_udemy/page/classes/SearchPage.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/log4j_log4j_1_2_17.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ActionClasses/DragAndDropSimulation.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ActionClasses/MouseHoverOver.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ActionClasses/UsingSliders.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Generics/AutoCompleteDemo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Generics/CalendarSelectionDemo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Generics/ElementListDemo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Generics/ExplicitWaitUtilityDemo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Generics/FindingWindowSize.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Generics/GenericMethods.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Generics/GenericMethodsDemo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Generics/IsElementPresentDemo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Generics/JavaScriptExecution.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Generics/ScrollingUsingJavaScript.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Generics/SwitchingToIframe.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Generics/SwitchingToJavaScriptPopUp.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Generics/TakingScreenshots.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Generics/WaitTypes.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Generics/WindowHandles.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/waittypes/ExplicitWaitExample.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/waittypes/ImplicitWaitDemo.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/org_testng_testng_6_10.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/page/classes/TestNG_TestCase.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testng.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Java_selenium_udemy/page/classes/PageObjectModel.class" afterPath="$PROJECT_DIR$/out/production/Java_selenium_udemy/page/classes/PageObjectModel.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Java_selenium_udemy/page/classes/SearchPage.class" afterPath="$PROJECT_DIR$/out/production/Java_selenium_udemy/page/classes/SearchPage.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Java_selenium_udemy.iml" afterPath="$PROJECT_DIR$/Java_selenium_udemy.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MyTests/BasicActions.java" afterPath="$PROJECT_DIR$/src/MyTests/BasicActions.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log4jFile.properties" afterPath="$PROJECT_DIR$/log4jFile.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/page/classes/PageObjectModel.java" afterPath="$PROJECT_DIR$/src/page/classes/PageObjectModel.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/page/classes/SearchPage.java" afterPath="$PROJECT_DIR$/src/page/classes/SearchPage.java" />
     </list>
     <ignored path="Java_selenium_udemy.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -60,33 +33,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="PageObjectModel.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/page/classes/PageObjectModel.java">
+      <file leaf-file-name="TestNG_TestCase.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/page/classes/TestNG_TestCase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-208">
-              <caret line="20" column="64" selection-start-line="20" selection-start-column="64" selection-end-line="20" selection-end-column="64" />
+            <state relative-caret-position="147">
+              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1594#1595#0" expanded="true" />
+                <element signature="e#1623#1624#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="log4jConsole.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/log4jConsole.properties">
+      <file leaf-file-name="testng.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/testng.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="253">
+              <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="log4jFile.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/log4jFile.properties">
+      <file leaf-file-name="SearchPage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/page/classes/SearchPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+            <state relative-caret-position="380">
+              <caret line="89" column="0" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -116,14 +91,16 @@
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
         <option value="$PROJECT_DIR$/src/page/classes/HomePage.java" />
         <option value="$PROJECT_DIR$/src/testPackage/PageObjectModel.java" />
-        <option value="$PROJECT_DIR$/src/page/classes/SearchPage.java" />
         <option value="$PROJECT_DIR$/src/Logowanie/log4j.properties" />
         <option value="$PROJECT_DIR$/src/Logowanie/Logging4jProba.java" />
         <option value="$PROJECT_DIR$/src/Logowanie/file_log4j.properties" />
         <option value="$PROJECT_DIR$/src/Generics/WaitTypes.java" />
         <option value="$PROJECT_DIR$/src/Generics/TakingScreenshots.java" />
         <option value="$PROJECT_DIR$/src/MyTests/BasicActions.java" />
+        <option value="$PROJECT_DIR$/src/page/classes/SearchPage.java" />
         <option value="$PROJECT_DIR$/src/page/classes/PageObjectModel.java" />
+        <option value="$PROJECT_DIR$/testng.xml" />
+        <option value="$PROJECT_DIR$/src/page/classes/TestNG_TestCase.java" />
       </list>
     </option>
   </component>
@@ -135,10 +112,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="861" />
+    <option name="width" value="1066" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -165,97 +141,12 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Java_selenium_udemy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Java_selenium_udemy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Java_selenium_udemy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Java_selenium_udemy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Java_selenium_udemy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="classes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Java_selenium_udemy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Java_selenium_udemy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Java_selenium_udemy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Java_selenium_udemy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="out" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="production" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Java_selenium_udemy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Java_selenium_udemy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Java_selenium_udemy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value=".idea" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
+        <subPane />
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -269,8 +160,67 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
   </component>
-  <component name="RunManager" selected="JUnit.PageObjectModel">
-    <configuration default="false" name="BasicActions" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.F:/Git_folder/Java_selenium_udemy/testng.xml">
+    <configuration default="false" name="TestNG_TestCase" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="page.classes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Java_selenium_udemy" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="page.classes" />
+      <option name="MAIN_CLASS_NAME" value="page.classes.TestNG_TestCase" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="false" name="TestNG_TestCase.fillBasicInfo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="page.classes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Java_selenium_udemy" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="page.classes" />
+      <option name="MAIN_CLASS_NAME" value="page.classes.TestNG_TestCase" />
+      <option name="METHOD_NAME" value="fillBasicInfo" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="BasicActions.firstTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="MyTests.*" />
@@ -282,8 +232,8 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="MyTests" />
       <option name="MAIN_CLASS_NAME" value="MyTests.BasicActions" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="METHOD_NAME" value="firstTest" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -322,82 +272,32 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="TakingScreenshots" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="Generics.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration default="false" name="F:/Git_folder/Java_selenium_udemy/testng.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="Java_selenium_udemy" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Generics" />
-      <option name="MAIN_CLASS_NAME" value="Generics.TakingScreenshots" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
       <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="singleModule" />
       </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
       <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="Logging4jProba" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="Logowanie.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="Java_selenium_udemy" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Logowanie" />
-      <option name="MAIN_CLASS_NAME" value="Logowanie.Logging4jProba" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="BasicActions.firstTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="MyTests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="Java_selenium_udemy" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="MyTests" />
-      <option name="MAIN_CLASS_NAME" value="MyTests.BasicActions" />
-      <option name="METHOD_NAME" value="firstTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
+      <properties />
+      <listeners />
       <method />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -635,19 +535,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.BasicActions" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.PageObjectModel" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.TakingScreenshots" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.Logging4jProba" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.BasicActions.firstTest" />
+      <item index="0" class="java.lang.String" itemvalue="TestNG.TestNG_TestCase" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.TestNG_TestCase.fillBasicInfo" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.BasicActions.firstTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.PageObjectModel" />
+      <item index="4" class="java.lang.String" itemvalue="TestNG.F:/Git_folder/Java_selenium_udemy/testng.xml" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.PageObjectModel" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.BasicActions" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.BasicActions.firstTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.Logging4jProba" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.TakingScreenshots" />
+        <item index="0" class="java.lang.String" itemvalue="TestNG.F:/Git_folder/Java_selenium_udemy/testng.xml" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG.TestNG_TestCase" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.PageObjectModel" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.TestNG_TestCase.fillBasicInfo" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.BasicActions.firstTest" />
       </list>
     </recent_temporary>
   </component>
@@ -668,59 +568,59 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BasicActions - 2017.09.07 at 22h 46m 42s.xml">
-      <configuration name="BasicActions" configurationId="JUnit" />
+    <history-entry file="F__Git_folder_Java_selenium_udemy_testng_xml - 2017.09.19 at 23h 06m 46s.xml">
+      <configuration name="F:/Git_folder/Java_selenium_udemy/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="BasicActions_firstTest - 2017.09.05 at 23h 07m 22s.xml">
-      <configuration name="BasicActions.firstTest" configurationId="JUnit" />
+    <history-entry file="F__Git_folder_Java_selenium_udemy_testng_xml - 2017.09.19 at 23h 07m 55s.xml">
+      <configuration name="F:/Git_folder/Java_selenium_udemy/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="BasicActions_firstTest - 2017.09.05 at 23h 08m 28s.xml">
-      <configuration name="BasicActions.firstTest" configurationId="JUnit" />
+    <history-entry file="F__Git_folder_Java_selenium_udemy_testng_xml - 2017.09.19 at 23h 08m 15s.xml">
+      <configuration name="F:/Git_folder/Java_selenium_udemy/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Logging4jProba - 2017.09.05 at 23h 04m 06s.xml">
-      <configuration name="Logging4jProba" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Logging4jProba - 2017.09.05 at 23h 04m 18s.xml">
-      <configuration name="Logging4jProba" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PageObjectModel - 2017.09.05 at 22h 43m 18s.xml">
+    <history-entry file="PageObjectModel - 2017.09.19 at 22h 59m 27s.xml">
       <configuration name="PageObjectModel" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PageObjectModel - 2017.09.05 at 22h 43m 46s.xml">
-      <configuration name="PageObjectModel" configurationId="JUnit" />
+    <history-entry file="TestNG_TestCase - 2017.09.19 at 22h 52m 41s.xml">
+      <configuration name="TestNG_TestCase" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="PageObjectModel - 2017.09.07 at 22h 47m 49s.xml">
-      <configuration name="PageObjectModel" configurationId="JUnit" />
+    <history-entry file="TestNG_TestCase - 2017.09.19 at 23h 00m 36s.xml">
+      <configuration name="TestNG_TestCase" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="PageObjectModel - 2017.09.07 at 23h 01m 15s.xml">
-      <configuration name="PageObjectModel" configurationId="JUnit" />
+    <history-entry file="TestNG_TestCase - 2017.09.19 at 23h 03m 09s.xml">
+      <configuration name="TestNG_TestCase" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="PageObjectModel - 2017.09.07 at 23h 02m 00s.xml">
-      <configuration name="PageObjectModel" configurationId="JUnit" />
+    <history-entry file="TestNG_TestCase - 2017.09.19 at 23h 04m 28s.xml">
+      <configuration name="TestNG_TestCase" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestNG_TestCase_fillBasicInfo - 2017.09.19 at 22h 51m 35s.xml">
+      <configuration name="TestNG_TestCase.fillBasicInfo" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestNG_TestCase_fillBasicInfo - 2017.09.19 at 22h 53m 10s.xml">
+      <configuration name="TestNG_TestCase.fillBasicInfo" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="861" y="0" width="1066" height="1047" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32394367" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3231982" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34994584" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34346846" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17217484" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17992048" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5926327" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5923423" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -776,7 +676,7 @@
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="3" />
+      <option name="time" value="5" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -785,8 +685,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Logowanie/file_log4j.properties" />
-    <entry file="file://$PROJECT_DIR$/src/Logowanie/Logging4jProba.java" />
     <entry file="file://$PROJECT_DIR$/src/Logowanie/log4j.properties" />
     <entry file="file://$PROJECT_DIR$/src/Logowanie/file_log4j.properties" />
     <entry file="file://$PROJECT_DIR$/src/Logowanie/Logging4jProba.java" />
@@ -814,7 +712,6 @@
     <entry file="file://$PROJECT_DIR$/src/testPackage/FirstTestClass.java" />
     <entry file="file://$PROJECT_DIR$/src/testPackage/FirstTestClass.java" />
     <entry file="file://$PROJECT_DIR$/src/testPackage/PageObjectModel.java" />
-    <entry file="file://$PROJECT_DIR$/src/page/classes/SearchPage.java" />
     <entry file="file://$PROJECT_DIR$/src/page/classes/HomePage.java" />
     <entry file="file://$PROJECT_DIR$/src/Logowanie/file_log4j.properties" />
     <entry file="file://$PROJECT_DIR$/src/Generics/FindingWindowSize.java" />
@@ -841,7 +738,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -849,7 +745,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -857,7 +752,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -865,7 +759,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -873,25 +766,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1830">
           <caret line="122" column="23" selection-start-line="122" selection-start-column="23" selection-end-line="122" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MyTests/BasicActions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
-          <caret line="39" column="8" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MyTests/ElementLists.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -899,15 +773,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/log4jFile.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -915,17 +780,67 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log4jFile.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MyTests/BasicActions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="29" column="69" selection-start-line="29" selection-start-column="69" selection-end-line="29" selection-end-column="69" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/page/classes/PageObjectModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-208">
-          <caret line="20" column="64" selection-start-line="20" selection-start-column="64" selection-end-line="20" selection-end-column="64" />
+        <state relative-caret-position="240">
+          <caret line="24" column="100" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="100" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/page/classes/SearchPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="89" column="0" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MyTests/ElementLists.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/page/classes/TestNG_TestCase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1594#1595#0" expanded="true" />
+            <element signature="e#1623#1624#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testng.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -993,7 +908,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>log4j:log4j:1.2.17</last-edited>
+          <last-edited>org.testng:testng:6.10</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

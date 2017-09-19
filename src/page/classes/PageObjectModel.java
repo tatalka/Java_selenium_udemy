@@ -20,14 +20,12 @@ public class PageObjectModel {
 
     static Logger log = Logger.getLogger(PageObjectModel.class);
 
-
     @Before
     public void setUp(){
-        PropertyConfigurator.configure("F:\\Git_folder\\Java_selenium_udemy\\log4jConsole.properties");
+        PropertyConfigurator.configure("F:\\Git_folder\\Java_selenium_udemy\\log4jFile.properties");
         driver = new FirefoxDriver();
         baseUrl = "https://www.expedia.com/";
 
-        log.info("costam z before");
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
     }
@@ -36,13 +34,16 @@ public class PageObjectModel {
     public void test01(){
         driver.get(baseUrl);
         SearchPage.navigateToFlightsTab(driver);
-        //SearchPage.originTextBox(driver).sendKeys("New York"); // linijka nizej jeszcze czytelniej
+        log.info("navigate to flights tab");
         SearchPage.fillOriginTextBox(driver,"New York");
-        SearchPage.destinationTextBox(driver).sendKeys("Chicago");
-        SearchPage.departureDateTextBox(driver).sendKeys("25/12/2017");
-        SearchPage.returnDateTextBox(driver).sendKeys("31/12/2017");
+        log.info("enter the origin city");
+        SearchPage.fillDestinationTextBox(driver,"Chicago");
+        log.info("enter the destination city");
+        SearchPage.fillDepartureDateTextBox(driver, "25/12/2017");
+        log.info("enter departure date");
+        SearchPage.fillReturnDateTextBox(driver, "31/12/2017");
+        log.info("enter return date");
         SearchPage.clickOnSearchButton(driver);
-
     }
 
     @After
